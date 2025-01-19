@@ -45,7 +45,7 @@ while True:
     player_turn("X")
     create_board()
     if is_victory("X"):
-        print("X wins! Congratulations!")
+        print("Player 1 wins the game Congratulations!")
         break
     elif is_draw():
         print("It's a draw!")
@@ -53,7 +53,7 @@ while True:
     player_turn("O")
     if is_victory("O"):
         create_board()
-        print("O wins! Congratulations!")
+        print("Player 2 wins the game Congratulations!")
         break
     elif is_draw():
         print("It's a draw!")
